@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bema-level useData provides data to the context 1`] = `
+Array [
+  Array [
+    Object {
+      "$info": Object {
+        "parameters": Object {},
+      },
+      "a": 1,
+    },
+  ],
+]
+`;
+
+exports[`group-level useData provides data to the context 1`] = `
+Array [
+  Array [
+    Object {
+      "$info": Object {
+        "parameters": Object {},
+      },
+      "a": 1,
+    },
+  ],
+]
+`;

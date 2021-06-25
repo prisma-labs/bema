@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can define cases in groups 1`] = `
+Object {
+  "0": Object {
+    "caseResultsByMatrix": Array [
+      Object {
+        "0": Object {
+          "report": Object {
+            "group": "a",
+            "matrix": Array [],
+            "name": "name:1",
+            "parameters": Object {
+              "name": "1",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "1",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+        },
+        "1": Object {
+          "report": Object {
+            "group": "a",
+            "matrix": Array [],
+            "name": "name:2",
+            "parameters": Object {
+              "name": "2",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "2",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+        },
+      },
+    ],
+    "name": "a",
+    "time": "STRIPPED",
+  },
+  "1": Object {
+    "caseResultsByMatrix": Array [
+      Object {
+        "0": Object {
+          "report": Object {
+            "group": "b",
+            "matrix": Array [],
+            "name": "name:3",
+            "parameters": Object {
+              "name": "3",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "3",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+        },
+        "1": Object {
+          "report": Object {
+            "group": "b",
+            "matrix": Array [],
+            "name": "name:4",
+            "parameters": Object {
+              "name": "4",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "4",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+        },
+      },
+    ],
+    "name": "b",
+    "time": "STRIPPED",
+  },
+}
+`;

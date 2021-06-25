@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`afterAll afterAll is called once after all cases in group have run 1`] = `
+Object {
+  "$info": Object {
+    "caseResults": Object {
+      "all": Array [
+        Object {
+          "report": Object {
+            "group": "a",
+            "matrix": Array [],
+            "name": "name:1",
+            "parameters": Object {
+              "name": "1",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "1",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+          "returnValue": undefined,
+        },
+        Object {
+          "report": Object {
+            "group": "a",
+            "matrix": Array [],
+            "name": "name:2",
+            "parameters": Object {
+              "name": "2",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "2",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+          "returnValue": undefined,
+        },
+        Object {
+          "report": Object {
+            "group": "a",
+            "matrix": Array [],
+            "name": "name:3",
+            "parameters": Object {
+              "name": "3",
+            },
+            "parametersFromMatrix": Object {},
+            "parametersFromNotMatrix": Object {
+              "name": "3",
+            },
+            "quickMode": true,
+            "stats": "STRIPPED",
+          },
+          "returnValue": undefined,
+        },
+      ],
+      "byMatrix": Object {
+        "": Array [
+          Object {
+            "report": Object {
+              "group": "a",
+              "matrix": Array [],
+              "name": "name:1",
+              "parameters": Object {
+                "name": "1",
+              },
+              "parametersFromMatrix": Object {},
+              "parametersFromNotMatrix": Object {
+                "name": "1",
+              },
+              "quickMode": true,
+              "stats": "STRIPPED",
+            },
+            "returnValue": undefined,
+          },
+          Object {
+            "report": Object {
+              "group": "a",
+              "matrix": Array [],
+              "name": "name:2",
+              "parameters": Object {
+                "name": "2",
+              },
+              "parametersFromMatrix": Object {},
+              "parametersFromNotMatrix": Object {
+                "name": "2",
+              },
+              "quickMode": true,
+              "stats": "STRIPPED",
+            },
+            "returnValue": undefined,
+          },
+          Object {
+            "report": Object {
+              "group": "a",
+              "matrix": Array [],
+              "name": "name:3",
+              "parameters": Object {
+                "name": "3",
+              },
+              "parametersFromMatrix": Object {},
+              "parametersFromNotMatrix": Object {
+                "name": "3",
+              },
+              "quickMode": true,
+              "stats": "STRIPPED",
+            },
+            "returnValue": undefined,
+          },
+        ],
+      },
+    },
+    "cases": Array [
+      Object {
+        "afterCallbacks": Array [],
+        "beforeCallbacks": Array [],
+        "matrixChain": Array [],
+        "name": "name:1",
+        "parameterDefinitions": Array [
+          Object {
+            "0": "n",
+            "1": "a",
+            "2": "m",
+            "3": "e",
+          },
+        ],
+        "parameters": Object {
+          "name": "1",
+        },
+        "parametersFromMatrix": Object {},
+        "parametersFromNotMatrix": Object {
+          "name": "1",
+        },
+        "providerStack": Array [],
+        "runCallback": [Function],
+      },
+      Object {
+        "afterCallbacks": Array [],
+        "beforeCallbacks": Array [],
+        "matrixChain": Array [],
+        "name": "name:2",
+        "parameterDefinitions": Array [
+          Object {
+            "0": "n",
+            "1": "a",
+            "2": "m",
+            "3": "e",
+          },
+        ],
+        "parameters": Object {
+          "name": "2",
+        },
+        "parametersFromMatrix": Object {},
+        "parametersFromNotMatrix": Object {
+          "name": "2",
+        },
+        "providerStack": Array [],
+        "runCallback": [Function],
+      },
+      Object {
+        "afterCallbacks": Array [],
+        "beforeCallbacks": Array [],
+        "matrixChain": Array [],
+        "name": "name:3",
+        "parameterDefinitions": Array [
+          Object {
+            "0": "n",
+            "1": "a",
+            "2": "m",
+            "3": "e",
+          },
+        ],
+        "parameters": Object {
+          "name": "3",
+        },
+        "parametersFromMatrix": Object {},
+        "parametersFromNotMatrix": Object {
+          "name": "3",
+        },
+        "providerStack": Array [],
+        "runCallback": [Function],
+      },
+    ],
+    "casesSelected": Array [
+      Object {
+        "afterCallbacks": Array [],
+        "beforeCallbacks": Array [],
+        "matrixChain": Array [],
+        "name": "name:1",
+        "parameterDefinitions": Array [
+          Object {
+            "0": "n",
+            "1": "a",
+            "2": "m",
+            "3": "e",
+          },
+        ],
+        "parameters": Object {
+          "name": "1",
+        },
+        "parametersFromMatrix": Object {},
+        "parametersFromNotMatrix": Object {
+          "name": "1",
+        },
+        "providerStack": Array [],
+        "runCallback": [Function],
+      },
+      Object {
+        "afterCallbacks": Array [],
+        "beforeCallbacks": Array [],
+        "matrixChain": Array [],
+        "name": "name:2",
+        "parameterDefinitions": Array [
+          Object {
+            "0": "n",
+            "1": "a",
+            "2": "m",
+            "3": "e",
+          },
+        ],
+        "parameters": Object {
+          "name": "2",
+        },
+        "parametersFromMatrix": Object {},
+        "parametersFromNotMatrix": Object {
+          "name": "2",
+        },
+        "providerStack": Array [],
+        "runCallback": [Function],
+      },
+      Object {
+        "afterCallbacks": Array [],
+        "beforeCallbacks": Array [],
+        "matrixChain": Array [],
+        "name": "name:3",
+        "parameterDefinitions": Array [
+          Object {
+            "0": "n",
+            "1": "a",
+            "2": "m",
+            "3": "e",
+          },
+        ],
+        "parameters": Object {
+          "name": "3",
+        },
+        "parametersFromMatrix": Object {},
+        "parametersFromNotMatrix": Object {
+          "name": "3",
+        },
+        "providerStack": Array [],
+        "runCallback": [Function],
+      },
+    ],
+    "name": "a",
+    "time": "STRIPPED",
+  },
+}
+`;

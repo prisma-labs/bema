@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`throws an error if all tests are filtered out 1`] = `
+[LintError: [31mAll cases filtered out by parameter filters! This is probably not what you intended.[39m
+
+[2mNote: Multiple filters use AND semantic.[22m
+
+[1m"Only" Filters:[22m
+  
+    NA
+
+[1m"Skip" Filters:[22m
+
+    → value: /^1$/i
+
+[1mThe available parameter types are:[22m
+
+    → p1
+
+[1mThe parameters of each case are:[22m
+
+    → p1:1]
+`;

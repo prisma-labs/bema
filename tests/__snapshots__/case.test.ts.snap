@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`after is called once after the case. It receives info about return value and result report. 1`] = `
+Object {
+  "0": Array [
+    Object {
+      "$info": Object {
+        "report": Object {
+          "group": "a",
+          "matrix": Array [],
+          "name": "<Anonymous>",
+          "parameters": Object {},
+          "parametersFromMatrix": Object {},
+          "parametersFromNotMatrix": Object {},
+          "quickMode": true,
+          "stats": "STRIPPED",
+        },
+        "returnValue": 1,
+      },
+    },
+  ],
+  "1": Array [
+    Object {
+      "$info": Object {
+        "report": Object {
+          "group": "a",
+          "matrix": Array [],
+          "name": "<Anonymous>",
+          "parameters": Object {},
+          "parametersFromMatrix": Object {},
+          "parametersFromNotMatrix": Object {},
+          "quickMode": true,
+          "stats": "STRIPPED",
+        },
+        "returnValue": 2,
+      },
+    },
+  ],
+  "2": Array [
+    Object {
+      "$info": Object {
+        "report": Object {
+          "group": "a",
+          "matrix": Array [],
+          "name": "<Anonymous>",
+          "parameters": Object {},
+          "parametersFromMatrix": Object {},
+          "parametersFromNotMatrix": Object {},
+          "quickMode": true,
+          "stats": "STRIPPED",
+        },
+        "returnValue": 3,
+      },
+    },
+  ],
+}
+`;
+
+exports[`before is called once before the case. It receives contextual data. 1`] = `
+Object {
+  "0": Array [
+    Object {
+      "$info": Object {
+        "report": Object {
+          "group": "a",
+          "matrix": Array [],
+          "name": "<Anonymous>",
+          "parameters": Object {},
+          "parametersFromMatrix": Object {},
+          "parametersFromNotMatrix": Object {},
+          "quickMode": true,
+          "stats": "STRIPPED",
+        },
+        "returnValue": 1,
+      },
+    },
+  ],
+  "1": Array [
+    Object {
+      "$info": Object {
+        "report": Object {
+          "group": "a",
+          "matrix": Array [],
+          "name": "<Anonymous>",
+          "parameters": Object {},
+          "parametersFromMatrix": Object {},
+          "parametersFromNotMatrix": Object {},
+          "quickMode": true,
+          "stats": "STRIPPED",
+        },
+        "returnValue": 2,
+      },
+    },
+  ],
+  "2": Array [
+    Object {
+      "$info": Object {
+        "report": Object {
+          "group": "a",
+          "matrix": Array [],
+          "name": "<Anonymous>",
+          "parameters": Object {},
+          "parametersFromMatrix": Object {},
+          "parametersFromNotMatrix": Object {},
+          "quickMode": true,
+          "stats": "STRIPPED",
+        },
+        "returnValue": 3,
+      },
+    },
+  ],
+}
+`;

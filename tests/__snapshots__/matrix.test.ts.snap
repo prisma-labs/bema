@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`context case can get context from provider from matrix 1`] = `
+Array [
+  Object {
+    "$info": Object {
+      "parameters": Object {
+        "c": "1",
+        "level1": "pp1",
+      },
+    },
+    "level1": "cp1",
+  },
+]
+`;
+
+exports[`context case in group can get context from provider from matrix 1`] = `
+Array [
+  Object {
+    "$info": Object {
+      "parameters": Object {
+        "c": "1",
+        "level1": "pp1",
+      },
+    },
+    "level1": "cp1",
+  },
+]
+`;
