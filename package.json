@@ -9,8 +9,8 @@
     "dist-esm"
   ],
   "bin": {
-    "bema": "dist-cjs/cli/index.js",
-    "b": "dist-cjs/cli/index.js"
+    "bema": "./dist-cjs/cli/index.js",
+    "b": "./dist-cjs/cli/index.js"
   },
   "exports": {
     ".": {
