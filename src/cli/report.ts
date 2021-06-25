@@ -104,7 +104,7 @@ async function mergeGroupResultsForAllNestedDirectories(dir: string) {
   }
 
   const dirBase = Path.dirname(dir)
-  const pattern = Path.join(dir, `*.json`)
+  const pattern = Path.posix.join(dir, `*.json`) // fast-glob pattern prefers unix paths
   const outPath = Path.join(dir, 'report.json')
 
   // console.log(`Using as base directory: ${dirBase}`)

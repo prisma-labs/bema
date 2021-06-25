@@ -8,6 +8,10 @@
     "dist-cjs",
     "dist-esm"
   ],
+  "bin": {
+    "bema": "dist-cjs/cli",
+    "b": "dist-cjs/cli"
+  },
   "exports": {
     ".": {
       "require": "./dist-cjs/index.js",
