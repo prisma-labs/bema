@@ -21,6 +21,7 @@
   "main": "./dist-cjs/index.js",
   "module": "./dist-esm/index.js",
   "scripts": {
+    "bema": "ts-node src/cli",
     "format": "yarn format:prettier && yarn format:imports",
     "format:prettier": "prettier --write .",
     "format:imports": "format-imports src && format-imports tests",

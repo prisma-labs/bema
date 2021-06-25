@@ -23,6 +23,7 @@ main().catch((e: Error) => {
 })
 
 async function main(): Promise<void> {
+  // eslint-disable-next-line
   const command = (
     process.argv[2] === 'report'
       ? require('./report')
@@ -32,7 +33,7 @@ async function main(): Promise<void> {
       ? require('./bench')
       : // default command
         require('./bench')
-  ) as () => Promise<void>
+  ).default as () => Promise<void>
 
   await command()
 }
