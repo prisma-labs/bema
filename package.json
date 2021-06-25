@@ -81,7 +81,7 @@
   },
   "devDependencies": {
     "@homer0/prettier-plugin-jsdoc": "4.0.0",
-    "@octokit/types": "6.16.6",
+    "@octokit/types": "6.16.7",
     "@prisma-labs/prettier-config": "0.1.0",
     "@types/bluebird": "3.5.35",
     "@types/bytes": "3.1.0",
