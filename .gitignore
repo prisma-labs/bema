@@ -106,3 +106,5 @@ dist
 # This library
 dist-esm
 dist-cjs
+types.js
+types.d.ts

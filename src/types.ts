@@ -60,8 +60,8 @@ export type AfterCaseCallback<
 > = (context: AfterCaseContext<C, P, ReturnedValue>) => MaybePromise<void>
 
 export type AfterCaseContext<
-  C extends BaseContext = Record<string, never>,
-  P extends BaseParameters = Record<string, never>,
+  C extends BaseContext = BaseContext,
+  P extends BaseParameters = BaseParameters,
   ReturnValue = unknown
 > = C & {
   $info: CaseResult<P, ReturnValue>

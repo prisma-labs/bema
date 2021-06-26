@@ -1,4 +1,3 @@
-import { Octokit } from '@octokit/rest'
 import bytes from 'bytes'
 import decompress from 'decompress'
 import download from 'download'
@@ -8,6 +7,7 @@ import parseGitConfig from 'parse-git-config'
 import parseGitHubURL from 'parse-github-url'
 import * as Path from 'path'
 import slugify from 'slugify'
+import { Octokit } from '@octokit/rest'
 import { d } from '../utils'
 import { absolutify } from './fs'
 
