@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { d, fatal } from '../utils'
 import { LintError, UserError } from '../utils/errors'
 
