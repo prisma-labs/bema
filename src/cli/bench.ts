@@ -79,7 +79,7 @@ export default async function run(): Promise<void> {
   const helpMessage = endent`
     ${bold('ALL COMMANDS')}
 
-    ${renderIndentedList(['bench (default)', 'report'])}
+    ${renderIndentedList(['bench (default)', 'report', 'ui'])}
 
     ${dim('ABOUT THIS COMMAND')}
       

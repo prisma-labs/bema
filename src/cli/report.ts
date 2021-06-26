@@ -40,12 +40,6 @@ export default async function run(): Promise<void> {
   })
 
   const helpMessage = endent`
-    ${bold('ALL COMMANDS')}
-
-    ${renderIndentedList(['bench (default)', 'report'])}
-
-    ${dim('ABOUT THIS COMMAND')}
-
     This command will merge Bema group results that have been fragmented
     into multiple files into one final "report.json" file.
 
