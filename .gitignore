@@ -108,3 +108,4 @@ dist-esm
 dist-cjs
 types.js
 types.d.ts
+results/
