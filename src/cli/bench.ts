@@ -4,12 +4,16 @@ import * as Glob from 'fast-glob'
 import kleur, { bold, dim } from 'kleur'
 import { isEmpty } from 'lodash'
 import * as Path from 'path'
+import tsNode from 'ts-node'
 import { bema } from '../'
 import { InternalBema } from '../declaration/bema'
 import { filterExpressionGuide } from '../declaration/config'
 import * as BemaExecution from '../execution/run'
 import { d, fatal } from '../utils'
 import { renderIndentedList } from '../utils/terminal'
+
+// TODO allow customization
+tsNode.register()
 
 export default async function run(): Promise<void> {
   const internalBema = bema as InternalBema

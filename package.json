@@ -74,8 +74,10 @@
     "slugify": "^1.5.3",
     "strip-ansi": "^6",
     "ts-custom-error": "^3.2.0",
+    "ts-node": "^10.0.0",
     "tslib": "^2.3.0",
     "type-fest": "^1.2.1",
+    "typescript": "^4.3.4",
     "verror": "^1.10.0",
     "victory": "^35.9.0"
   },
@@ -111,9 +113,7 @@
     "prettier": "2.3.1",
     "ts-jest": "27.0.3",
     "ts-nameof": "5.0.0",
-    "ts-node": "10.0.0",
     "ttypescript": "1.5.12",
-    "typescript": "4.3.4",
     "typescript-snapshots-plugin": "1.7.0",
     "typescript-transform-paths": "3.0.0"
   },
