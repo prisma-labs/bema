@@ -16,6 +16,10 @@
     ".": {
       "require": "./dist-cjs/index.js",
       "import": "./dist-esm/index.js"
+    },
+    "./types": {
+      "require": "./dist-cjs/entrypoints/types.js",
+      "import": "./dist-esm/entrypoints/types.js"
     }
   },
   "main": "./dist-cjs/index.js",
