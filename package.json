@@ -27,7 +27,7 @@
   "main": "./dist-cjs/index.js",
   "module": "./dist-esm/index.js",
   "scripts": {
-    "bema": "ts-node src/cli",
+    "bema": "ts-node --transpile-only src/cli",
     "format": "yarn format:prettier && yarn format:imports",
     "format:prettier": "prettier --write .",
     "format:imports": "format-imports src && format-imports tests",
@@ -64,6 +64,7 @@
     "decompress": "^4.2.1",
     "download": "^8.0.0",
     "endent": "^2.1.0",
+    "execa": "^5.1.1",
     "fast-csv": "^4.3.6",
     "fast-glob": "^3.2.5",
     "fs-jetpack": "^4.1.0",
