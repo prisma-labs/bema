@@ -13,7 +13,9 @@ import { d, fatal } from '../utils'
 import { renderIndentedList } from '../utils/terminal'
 
 // TODO allow customization
-tsNode.register()
+tsNode.register({
+  transpileOnly: true,
+})
 
 export default async function run(): Promise<void> {
   const internalBema = bema as InternalBema
