@@ -12,9 +12,9 @@ npm add bema
 
 ### About
 
-Bema is a framework for writing benchamrks. It focused on your workflow of writing and maintain benchmarks over time. Under the hood it uses [Benchmark.js](https://benchmarkjs.com/) as its engine but layers many features on top. Conceptually you can roughly think of it to benchmarks what
+Bema is a framework for writing benchmarks. It focused on your workflow of writing and maintain benchmarks over time. Under the hood it uses [Benchmark.js](https://benchmarkjs.com/) as its engine but layers many features on top. Conceptually you can roughly think of it to benchmarks what
 [`jest`](https://jestjs.io/) is to tests. It was initially developed at [Prisma](https://www.prisma.io/)
-for internal bencmarking needs and continues to be used today. Its features and roadmap are driven firstly
+for internal benchmarking needs and continues to be used today. Its features and roadmap are driven firstly
 by Prisma's needs however community contributions are generally welcome too!
 
 ### Features
@@ -66,10 +66,10 @@ const simple = bema
   // Create groups of benchmarks. This allows you to share configuration across multiple benchmarks
   // and affects their default presentation in downstream reporting.
   .group('Simple')
-  // Define custom paramters. Benchmarks are named by their accumulated paramters.
-  .paramter('name')
+  // Define custom parameters. Benchmarks are named by their accumulated parameters.
+  .parameter('name')
   // Let's add two to show it off down below.
-  .paramter('thing')
+  .parameter('thing')
   // A middleware system. You get access to upstream context and can augment
   // however you want for downstream parts! Also, your additions here will be statically visible
   // downstream thanks to TypeScript!
