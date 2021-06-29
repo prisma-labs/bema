@@ -12,9 +12,9 @@ npm add bema
 
 ### About
 
-Bema is a framework for writing benchamrks. It focused on your workflow of writing and maintain benchmarks over time. Under the hood it uses [Benchmark.js](https://benchmarkjs.com/) as its engine but layers many features on top. Conceptually you can roughly think of it to benchmarks what
+Bema is a framework for writing benchmarks. It focused on your workflow of writing and maintain benchmarks over time. Under the hood it uses [Benchmark.js](https://benchmarkjs.com/) as its engine but layers many features on top. Conceptually you can roughly think of it to benchmarks what
 [`jest`](https://jestjs.io/) is to tests. It was initially developed at [Prisma](https://www.prisma.io/)
-for internal bencmarking needs and continues to be used today. Its features and roadmap are driven firstly
+for internal benchmarking needs and continues to be used today. Its features and roadmap are driven firstly
 by Prisma's needs however community contributions are generally welcome too!
 
 ### Features
