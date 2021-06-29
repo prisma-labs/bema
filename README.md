@@ -66,10 +66,10 @@ const simple = bema
   // Create groups of benchmarks. This allows you to share configuration across multiple benchmarks
   // and affects their default presentation in downstream reporting.
   .group('Simple')
-  // Define custom paramters. Benchmarks are named by their accumulated paramters.
-  .paramter('name')
+  // Define custom parameters. Benchmarks are named by their accumulated parameters.
+  .parameter('name')
   // Let's add two to show it off down below.
-  .paramter('thing')
+  .parameter('thing')
   // A middleware system. You get access to upstream context and can augment
   // however you want for downstream parts! Also, your additions here will be statically visible
   // downstream thanks to TypeScript!
