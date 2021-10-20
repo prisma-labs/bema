@@ -87,7 +87,7 @@
     "type-fest": "^1.2.1",
     "typescript": "^4.3.4",
     "verror": "^1.10.0",
-    "victory": "^35.9.0"
+    "victory": "^36.0.0"
   },
   "devDependencies": {
     "@homer0/prettier-plugin-jsdoc": "4.0.0",
