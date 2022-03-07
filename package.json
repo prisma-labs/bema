@@ -71,7 +71,7 @@
     "got": "^10",
     "kleur": "^4.1.4",
     "lodash": "^4.17.21",
-    "markdown-table": "2.0.0",
+    "markdown-table": "3.0.2",
     "microtime": "^3.0.0",
     "next": "^11.0.1",
     "next-transpile-modules": "^8.0.0",
