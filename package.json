@@ -68,7 +68,7 @@
     "fast-csv": "^4.3.6",
     "fast-glob": "^3.2.5",
     "fs-jetpack": "^4.1.0",
-    "got": "^10",
+    "got": "^13.0.0",
     "kleur": "^4.1.4",
     "lodash": "^4.17.21",
     "markdown-table": "2.0.0",
