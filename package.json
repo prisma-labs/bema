@@ -67,7 +67,7 @@
     "execa": "^5.1.1",
     "fast-csv": "^4.3.6",
     "fast-glob": "^3.2.5",
-    "fs-jetpack": "^4.1.0",
+    "fs-jetpack": "^5.0.0",
     "got": "^10",
     "kleur": "^4.1.4",
     "lodash": "^4.17.21",
