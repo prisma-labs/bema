@@ -73,7 +73,7 @@
     "lodash": "^4.17.21",
     "markdown-table": "2.0.0",
     "microtime": "^3.0.0",
-    "next": "^11.0.1",
+    "next": "^15.0.0",
     "next-transpile-modules": "^8.0.0",
     "parse-git-config": "^3.0.0",
     "parse-github-url": "^1.0.2",
