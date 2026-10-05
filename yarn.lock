@@ -345,7 +345,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fast-csv/format@4.3.5", "@fast-csv/format@^4.3.5":
+"@fast-csv/format@4.3.5":
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/@fast-csv/format/-/format-4.3.5.tgz#90d83d1b47b6aaf67be70d6118f84f3e12ee1ff3"
   integrity sha512-8iRn6QF3I8Ak78lNAa+Gdl5MJJBM5vRHivFtMRUWINdevNo00K7OXxS2PshawLKTejVwieIlPmK5YlLu6w4u8A==
@@ -356,6 +356,11 @@
     lodash.isequal "^4.5.0"
     lodash.isfunction "^3.0.9"
     lodash.isnil "^4.0.0"
+
+"@fast-csv/format@^5.0.0":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fast-csv/format/-/format-5.0.8.tgz#a9060bf1122220f7dd66300c177e32d329e1a548"
+  integrity sha512-ipZW+PF3T/28gpHMkgy1j24aQO3ZHCai5LzxotrECw7csd0+6GAA24q7zS6fqeQMzHsCNDyzAE1AdXodqn5Gzw==
 
 "@fast-csv/parse@4.3.6", "@fast-csv/parse@^4.3.6":
   version "4.3.6"
