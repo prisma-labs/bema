@@ -357,7 +357,7 @@
     lodash.isfunction "^3.0.9"
     lodash.isnil "^4.0.0"
 
-"@fast-csv/parse@4.3.6", "@fast-csv/parse@^4.3.6":
+"@fast-csv/parse@4.3.6":
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-4.3.6.tgz#ee47d0640ca0291034c7aa94039a744cfb019264"
   integrity sha512-uRsLYksqpbDmWaSmzvJcuApSEe38+6NQZBUsuAyMZKqHxH0g1wcJgsKUvN3WC8tewaqFjBMMGrkHmC+T7k8LvA==
@@ -369,6 +369,11 @@
     lodash.isnil "^4.0.0"
     lodash.isundefined "^3.0.1"
     lodash.uniq "^4.5.0"
+
+"@fast-csv/parse@^5.0.0":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fast-csv/parse/-/parse-5.0.8.tgz#2908f10500d5fe7daf0e15227153b52e39cd165e"
+  integrity sha512-i2R1TWa2tgRn9YEsNplzdCv0z8J1O85nUIqPdAQtQOheZ+Pw/3AhekI27Yp095r7qSJK0l8KwphK8WzB3aCtog==
 
 "@hapi/accept@5.0.2":
   version "5.0.2"
